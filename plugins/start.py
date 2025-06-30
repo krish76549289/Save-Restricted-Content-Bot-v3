@@ -18,7 +18,7 @@ async def subscribe(app, message):
         except UserNotParticipant:
             link = await app.export_chat_invite_link(FORCE_SUB)
             caption = f"Join our channel to use the bot"
-            await message.reply_photo(photo="https://graph.org/file/d44f024a08ded19452152.jpg",caption=caption, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Join Now...", url=f"{link}")]]))
+            await message.reply_photo(photo="https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg",caption=caption, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Join Now...", url=f"{link}")]]))
             return 1
         except Exception as ggn:
             await message.reply_text(f"Something Went Wrong. Contact admins... with following message {ggn}")
