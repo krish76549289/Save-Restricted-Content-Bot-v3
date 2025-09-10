@@ -19,16 +19,17 @@ YTUB_COOKIES = """
 
 API_ID = os.getenv("API_ID", "21567814")
 API_HASH = os.getenv("API_HASH", "cd7dc5431d449fd795683c550d7bfb7e")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
-MONGO_DB = os.getenv("MONGO_DB", "mongodb+srv://krishna93107437:ecFL2x5KeUnOhHJJ@strangerboy27.h5bsz1t.mongodb.net/")
-OWNER_ID = list(map(int, os.getenv("OWNER_ID", "7918644408").split())) # list seperated via space
-DB_NAME = os.getenv("DB_NAME", "stranger_save_bot")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7649708076:AAGMkQpHWeSXFPfs278LORVqk5_9xH0qPlI")
+MONGO_DB = os.getenv("MONGO_DB", "mongodb+srv://krishna56478910:KWPaEQfwoHbzan5g@strangerboykrishna.tux94dy.mongodb.net/")
+OWNER_ID = list(map(int, os.getenv("OWNER_ID", "8167879352").split())) # list seperated via space
+DB_NAME = os.getenv("DB_NAME", "stranger_save_bot)
 STRING = os.getenv("STRING", None) # optional
-LOG_GROUP = int(os.getenv("LOG_GROUP", "-1002726534263")) # optional with -100
-FORCE_SUB = int(os.getenv("FORCE_SUB", "-1002726534263")) # optional with -100
+LOG_GROUP = int(os.getenv("LOG_GROUP", "-1002583554860")) # optional with -100
+FORCE_SUB = int(os.getenv("FORCE_SUB", "-1002583554860")) # optional with -100
 MASTER_KEY = os.getenv("MASTER_KEY", "gK8HzLfT9QpViJcYeB5wRa3DmN7P2xUq") # for session encryption
 IV_KEY = os.getenv("IV_KEY", "s7Yx5CpVmE3F") # for decryption
 YT_COOKIES = os.getenv("YT_COOKIES", YTUB_COOKIES)
 INSTA_COOKIES = os.getenv("INSTA_COOKIES", INST_COOKIES)
 FREEMIUM_LIMIT = int(os.getenv("FREEMIUM_LIMIT", "10"))
 PREMIUM_LIMIT = int(os.getenv("PREMIUM_LIMIT", "1000"))
+
